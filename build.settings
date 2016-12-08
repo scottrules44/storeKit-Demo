@@ -53,6 +53,11 @@ settings =
 			default = "In-App Purchase",
 		},
 	},
+	osx = {
+        entitlements = {
+            ["ccom.apple.security.network.client"] = true,
+        },
+    },
 	plugins =
 	{
 		["plugin.google.iap.v3"] =
