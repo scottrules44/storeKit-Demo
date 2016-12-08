@@ -55,7 +55,7 @@ settings =
 	},
 	osx = {
         entitlements = {
-            ["ccom.apple.security.network.client"] = true,
+            ["com.apple.security.network.client"] = true,
         },
     },
 	plugins =
