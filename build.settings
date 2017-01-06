@@ -60,10 +60,9 @@ settings =
     },
 	plugins =
 	{
-		["plugin.google.iap.v3"] =
+		["plugin.storeKit"] =
 		{
-			publisherId = "com.coronalabs",
-			supportedPlatforms = { android=true }
+			publisherId = "tech.scotth",
 		},
 	},
 }
